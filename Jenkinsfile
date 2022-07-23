@@ -5,8 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/Mohamed1380/GCP-Project-using-Terraform.git'
-
                 // Run Maven on a Unix agent.
                 sh "ls"
 
